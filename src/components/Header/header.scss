@@ -1,4 +1,21 @@
-* {
-    font-family: 'Harmattan';
-    font-size: 50px;
+header {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100vw;
+    height: 48px;
+    position: fixed;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+
+header span {
+    font-family: 'Harmattan', sans-serif;
+}
+
+.works {
+    font-weight: bold;
 }
