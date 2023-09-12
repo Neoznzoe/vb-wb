@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'Urbanist';
+    src: local('Urbanist') url('../fonts/Urbanist-Regular.ttf'), format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
     font-family: 'FogtwoNo5';
     src: local('FogtwoNo5') url('../fonts/FogtwoNo5.ttf'), format('truetype');
     font-weight: normal;
