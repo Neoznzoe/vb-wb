@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: column;  // Pour empiler les éléments verticalement
+    padding: 16px 32px;
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      border-top: 1px solid #ddd;
+  
+      .footer-section {
+        display: flex;
+        align-items: center;
+  
+        a + a {
+          margin-left: 10px;
+        }
+
+        .section-work {
+            text-align: center;
+        }
+      }
+    }
+  
+    .footer-city {
+      font-size: 24px;
+      width: 100%;
+      text-align: center;
+      margin-top: 16px;
+    }
+  }
+  

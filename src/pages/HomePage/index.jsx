@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../../components/Header/header";
+import Footer from "../../components/footer/footer";
 import './index.scss';
 
 function HomePage() {
@@ -9,6 +10,7 @@ function HomePage() {
         <div className="page-wrapper">
           <div className="title">Bonjour,</div>
         </div>
+        <Footer/>
       </div>
     );
   }
