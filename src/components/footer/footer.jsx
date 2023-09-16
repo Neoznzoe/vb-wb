@@ -1,26 +1,27 @@
-import React from 'react';
-import './footer.scss';
+  import React from 'react';
+  import './footer.scss';
+  import annecyImage from '../../assets/img/footer-annecy.svg';
 
-function Footer() {
-  return (
-    <footer className="footer">
-      <div className="footer-content">
-        <div className="footer-section">
-          Contact me: fdev.raphael@gmail.com
+  function Footer() {
+    return (
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-section">
+            Contact me: fdev.raphael@gmail.com
+          </div>
+          <div className="footer-section section-work">
+            Works
+          </div>
+          <div className="footer-section">
+            <a href="https://github.com/votre_nom_utilisateur">Github</a>
+            <a href="https://linkedin.com/in/votre_nom_utilisateur">LinkedIn</a>
+          </div>
         </div>
-        <div className="footer-section section-work">
-          Works
+        <div className="footer-city">
+          <img src={annecyImage} alt="" />
         </div>
-        <div className="footer-section">
-          <a href="https://github.com/votre_nom_utilisateur">Github</a>
-          <a href="https://linkedin.com/in/votre_nom_utilisateur">LinkedIn</a>
-        </div>
-      </div>
-      <div className="footer-city">
-        ANNECY
-      </div>
-    </footer>
-  );
-}
+      </footer>
+    );
+  }
 
-export default Footer;
+  export default Footer;
