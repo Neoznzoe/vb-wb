@@ -10,7 +10,9 @@ function HomePage() {
         <div className="page-wrapper">
           <div className="title">Bonjour,</div>
         </div>
-        <Footer/>
+        <div className="main-content">
+          <Footer/>
+          </div>
       </div>
     );
   }

@@ -1,13 +1,13 @@
   import React from 'react';
   import './footer.scss';
-  import annecyImage from '../../assets/img/footer-annecy.svg';
+  import annecyImage from '../../assets/img/Annecy-test.svg';
 
   function Footer() {
     return (
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-section">
-            Contact me: fdev.raphael@gmail.com
+            Contact me: Bdev.victor@gmail.com
           </div>
           <div className="footer-section section-work">
             Works

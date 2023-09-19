@@ -1,7 +1,6 @@
 .footer {
     display: flex;
-    flex-direction: column;  // Pour empiler les éléments verticalement
-    padding: 16px 32px;
+    flex-direction: column;
     font-family: 'Urbanist', san;
   
     .footer-content {
@@ -15,7 +14,31 @@
         align-items: center;
   
         a + a {
-          margin-left: 10px;
+          margin-left: 20px;
+        }
+
+        a {
+          color: black;
+          text-decoration: none;
+        }
+
+        a::after {
+          content: "";
+          display: inline-block;
+          width:  0.8rem;
+          height:  0.8rem;
+          background-image: url('../../assets/img/arrow.svg');
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-left: 6px;
+          vertical-align: middle;
+          transition: transform .3s ease-out;
+        }
+
+        a:hover::after {
+          transform: rotate(45deg);
+          width:  0.8rem;
+          height:  0.8rem;
         }
 
         .section-work {
@@ -23,18 +46,9 @@
         }
       }
     }
-  
-    // .footer-city {
-    //   font-size: 24px;
-    //   width: 100%;
-    //   text-align: center;
-    //   margin-top: 16px;
-    //   overflow: hidden;
-    //   height: 50%;
-    //   line-height: 1;
-    //   position: relative;
-    //   bottom: 0;
-    //   transform: translateY(-10%);
-    // }
+
+    .footer-city {
+      padding-top: 16px;
+    }
   }
   
