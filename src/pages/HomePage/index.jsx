@@ -12,8 +12,10 @@ function HomePage() {
         </div>
         <div className="main-content">
           <Footer/>
-          </div>
+        </div>
+        <div className="noise"></div>
       </div>
+      
     );
   }
 
