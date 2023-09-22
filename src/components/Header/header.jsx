@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function Header() {
   return(
     <header>
-      <span>Victor Besson</span>
+      <Link to="/" className="accueil">Victor Besson</Link>
       <span>Fullstack / Creative developper</span>
       <Link to="/projects" className="works">Works</Link>
     </header>

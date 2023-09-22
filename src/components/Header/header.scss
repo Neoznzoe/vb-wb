@@ -12,8 +12,17 @@ header {
     backdrop-filter: saturate(180%) blur(20px);
   }
 
+a {
+    font-family: 'Urbanist', sans-serif;
+}
+
 header span {
     font-family: 'Urbanist', sans-serif;
+}
+
+.accueil {
+    text-decoration: none;
+    color: inherit;
 }
 
 .works {
