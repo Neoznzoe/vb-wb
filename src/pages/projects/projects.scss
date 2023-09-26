@@ -1,6 +1,6 @@
 .noise {
     position: fixed;
-    z-index: 999;
+    z-index: 11;
     top: -300%;
     left: -150%;
     height: 600%;
@@ -67,5 +67,8 @@ footer {
     90% {
         transform: translate(-10%,10%);
     }
-    
+}
+
+.projectsPage {
+    padding-top: 100px;
 }
