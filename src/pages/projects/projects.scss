@@ -1,3 +1,7 @@
+.container {
+    height: 100vh;
+}
+
 .noise {
     position: fixed;
     z-index: 11;
@@ -70,5 +74,7 @@ footer {
 }
 
 .projectsPage {
-    padding-top: 100px;
+    padding-top: 240px;
+    max-height: calc(100vh - 240px);
+    overflow-y: hidden;
 }
