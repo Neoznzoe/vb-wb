@@ -35,6 +35,54 @@ footer {
     width: 80%;
 }
 
+/* Ajoutez ceci à votre fichier index.scss */
+.circle{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    // background: url(img.jpg); /* Assurez-vous de mettre à jour le chemin */
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    filter: contrast(1.5) brightness(1.5);
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    animation: rotateText 10s linear infinite;
+}
+
+
+
+@keyframes rotateText{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.text span{
+    position: absolute;
+    left: 50%;
+    font-size: 1.2em;
+    transform-origin: 0 100px;
+}
+
+
 @keyframes grain {
     
     0%, 100% {

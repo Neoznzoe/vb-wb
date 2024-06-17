@@ -10,31 +10,19 @@ header {
     align-items: center;
     z-index: 10;
     backdrop-filter: saturate(180%) blur(20px);
-  }
+}
 
-a {
+a, header span {
     font-family: 'Urbanist', sans-serif;
 }
 
-header span {
-    font-family: 'Urbanist', sans-serif;
-}
-
-.accueil {
+.accueil, .works {
     text-decoration: none;
     color: inherit;
+    position: relative;
+    display: inline-block;
 }
 
 .works {
     font-weight: bold;
-    text-decoration: none;
-    color: inherit;
-}
-
-@media (max-width: 425px) {
-    
-    .works {
-        display: none;
-    }
-
 }
